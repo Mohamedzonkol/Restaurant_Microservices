@@ -26,14 +26,22 @@ File storage using Azure Blob Storage
 
 ## Technologies Used
 
-Programming Language: C# with .NET 8
-Microservice Framework: ASP.NET Core
-Database: SQL Server
-Identity and Security: Duendo Identity Server with OAuth3 and OpenID integration
-File Storage: Azure Blob Storage
-Communication: Azure Service Bus, RabbitMQ
-API Gateway: Ocelot
-Design Patterns: N-Layer with Repository Pattern
+🛠 7 Microservices: Developed and deployed 7 microservices, each with its own SQL Server database, ensuring modularity and scalability.
+
+🔒 Robust Security: Integrated OAuth3 and OpenID with the Duendo Identity Server for top-notch security and identity management.
+
+💾 Efficient File Storage: Leveraged Azure Blob Storage to efficiently handle our file storage requirements, ensuring reliability and scalability.
+
+🔄 Flexible Communication: Implemented both asynchronous and synchronous communication methods between microservices for enhanced flexibility and performance.
+
+💳 Custom Payment Handling: Experimented with a custom message broker setup, utilizing Azure Service Bus and RabbitMQ for efficient payment handling.
+
+🌐 API Gateway: Implemented an API Gateway using Ocelot for streamlined API routing and aggregation, enhancing overall system efficiency.
+
+🏗 Scalable Architecture: Followed an N-Layer implementation pattern with the Repository Pattern to ensure a scalable and maintainable architecture.
+
+💻 Programming Language: C# with .NET 8
+
 ## Getting Started
 
 Include instructions on how to get started with your project. This may include:
