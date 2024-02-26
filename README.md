@@ -1,6 +1,6 @@
-# Project Name
+# Microservices Project
 
-Microservices Project
+ 
 Welcome to the Microservices Project! This project is aimed at showcasing the implementation of microservices architecture using .NET.
 ![Project Logo](https://dotnetresturant.blob.core.windows.net/manger/Screenshot%202024-02-26%20142703.png)
 
