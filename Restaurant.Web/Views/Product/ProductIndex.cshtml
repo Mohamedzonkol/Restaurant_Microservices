@@ -1,0 +1,43 @@
+﻿@model IEnumerable<Restaurant.Web.Models.ProductDto>
+
+<br/>
+<br/>
+<div class="container p-4 border">
+    <div class="row pb-2">
+        <div class="col">
+            <h1 class="text-info"> Product List </h1>
+        </div>
+        <div class="col text-end pt-2">
+            <a asp-action="Create" class="btn btn-outline-primary"><i class="fas fa-plus"></i>
+                Create New Product</a>
+        </div>
+    </div>
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Catagory Name</th>
+            <th>Price</th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.CatagoryName</td>
+                <td>@((item.Price).ToString("C"))</td>
+                <td>
+                    <a asp-action="Edit" class="btn btn-success" asp-route-productId="@item.ProductId">
+                        <i class="fas fa-edit"></i>
+                    </a>
+                    <a asp-action="Delete" class="btn btn-danger" asp-route-productId="@item.ProductId">
+                        <i class="fas fa-trash"></i>
+                    </a>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,6 @@
+@Resturant.Sercices.PaymentApi_HostAddress = http://localhost:5250
+
+GET {{Resturant.Sercices.PaymentApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

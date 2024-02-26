@@ -1,0 +1,6 @@
+@Resturant.Services.Discount_HostAddress = http://localhost:5265
+
+GET {{Resturant.Services.Discount_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

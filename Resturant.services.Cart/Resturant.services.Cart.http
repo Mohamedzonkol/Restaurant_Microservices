@@ -1,0 +1,6 @@
+@Resturant.services.Cart_HostAddress = http://localhost:5078
+
+GET {{Resturant.services.Cart_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
